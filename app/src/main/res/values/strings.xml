@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Talkative</string>
     <string name="login">Login</string>
-    <string name="signup">SignUp</string>
+    <string name="signup">New User? SignUp</string>
     <string name="email">Email</string>
     <string name="username">Username</string>
     <string name="ConfirmPass">Confirm Password</string>

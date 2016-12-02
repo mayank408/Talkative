@@ -1,6 +1,7 @@
 package com.example.mayank.abcd;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v4.content.AsyncTaskLoader;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String URL = "http://sakshi.pythonanywhere.com/done";
 
-        TextView username , password;
+        TextView username , password , signUp;
         ProgressDialog pd;
 
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         username = (TextView) findViewById(R.id.email);
         password = (TextView) findViewById(R.id.password_input);
+        signUp = (TextView) findViewById(R.id.sign_up);
         Button login = (Button) findViewById(R.id.log_in);
 
         pd=new ProgressDialog(MainActivity.this);
@@ -50,7 +52,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,SignUp.class);
+                startActivity(intent);
+            }
+        });
 
 
         login.setOnClickListener(new View.OnClickListener() {
