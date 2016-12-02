@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">Abcd</string>
+    <string name="app_name">Talkative</string>
     <string name="login">Login</string>
     <string name="signup">SignUp</string>
+    <string name="email">Email</string>
     <string name="username">Username</string>
+    <string name="ConfirmPass">Confirm Password</string>
     <string name="password">Password</string>
+    <string name="contact">Contact Number</string>
+    <string name="PassError">Confirm Password Do Not Match</string>
 </resources>

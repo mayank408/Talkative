@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                registerUser();
+                loginUser();
             }
         });
     }
 
-            private void registerUser() {
+            private void loginUser() {
                 pd.show();
                 final String Username = username.getText().toString().trim();
                 final String Password = password.getText().toString().trim();
