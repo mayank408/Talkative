@@ -1,5 +1,6 @@
 package com.example.mayank.abcd;
 
+import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -81,6 +82,12 @@ public class MainActivity extends AppCompatActivity {
                                     JSONObject json = new JSONObject(response);
                                     String str = json.getString("status");
                                     Toast.makeText(MainActivity.this, str, Toast.LENGTH_LONG).show();
+                                    if(str.equals("success"))
+                                    {
+                                        Intent intent = new Intent(MainActivity.this, ListenerActivity.class);
+                                        startActivity(intent);
+                                    }
+
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
