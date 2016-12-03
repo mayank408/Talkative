@@ -3,8 +3,6 @@ package com.example.mayank.abcd;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +28,7 @@ import java.util.Map;
 
 public class SignUp extends AppCompatActivity {
 
-    private static final String URL_SIGNUP = "";
+    private static final String URL_SIGNUP = "http://sakshi.pythonanywhere.com/signup";
     TextView username , password , compassword , contact , email ;
     ProgressDialog pd;
 
@@ -45,15 +43,14 @@ public class SignUp extends AppCompatActivity {
         contact = (TextView) findViewById(R.id.contact);
         compassword = (TextView) findViewById(R.id.confirm_password);
         email = (TextView) findViewById(R.id.emailsignup);
-
-        Button SighUp = (Button) findViewById(R.id.sign_up);
+        Button SignUp = (Button) findViewById(R.id.sign_up);
 
         pd=new ProgressDialog(this);
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         pd.setMessage("Signing Up....");
 
 
-        SighUp.setOnClickListener(new View.OnClickListener() {
+        SignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 registerUser();
@@ -132,4 +129,11 @@ public class SignUp extends AppCompatActivity {
     }
 
 
-}}
+}
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        super.finish();
+    }
+}
