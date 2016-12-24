@@ -100,6 +100,8 @@ public class SignUp extends AppCompatActivity {
                             }
                             Toast.makeText(SignUp.this, "Sign Up Successful", Toast.LENGTH_LONG).show();
                         } catch (JSONException e) {
+                            pd.hide();
+                            Toast.makeText(SignUp.this, "error", Toast.LENGTH_SHORT).show();
                             e.printStackTrace();
                         }
 
@@ -108,6 +110,7 @@ public class SignUp extends AppCompatActivity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        pd.hide();
                         Toast.makeText(SignUp.this, error.toString(), Toast.LENGTH_LONG).show();
                     }
                 }) {

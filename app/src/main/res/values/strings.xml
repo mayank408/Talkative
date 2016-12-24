@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Talkative</string>
+    <string name="app_name">Lets Talk</string>
     <string name="login">Login</string>
     <string name="signup">New User? SignUp</string>
     <string name="email">Email</string>
@@ -14,4 +14,7 @@
     <string name="settings_enterPreference_label">Enter As Send</string>
     <string name="speech_prompt">Say something&#8230;</string>
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="taketest">Take Test</string>
+    <string name="activespeaking">Active Speaking</string>
+    <string name="activelistening">Active Listening</string>
 </resources>

@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                                     JSONObject json = new JSONObject(response);
                                     String str = json.getString("status");
                                     Toast.makeText(MainActivity.this, str, Toast.LENGTH_LONG).show();
-                                    if(str.equals("success"))
+                                    //if(str.equals("success"))
                                     {
                                         Intent intent = new Intent(MainActivity.this, ListenerActivity.class);
                                         startActivity(intent);

@@ -1,5 +1,6 @@
 package com.example.mayank.abcd;
 
+import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,12 +9,25 @@ import android.os.Looper;
 import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Random;
 
 import butterknife.BindView;
@@ -25,12 +39,17 @@ import butterknife.ButterKnife;
 
 public class ListenerActivity extends AppCompatActivity {
 
+    private static final String URL_COUNT = "http://sakshi.pythonanywhere.com/words_count";
+
+
     @BindView(R.id.btnSpeak)
     ImageButton btnSpeak;
 
     private final int REQ_CODE_SPEECH_INPUT = 100;
     public String speechtotext;
     TextView textstring, speechOut;
+    ProgressDialog pd;
+    Button count;
 
 
     String str[] = {"It will take me about five minutes to home",
@@ -47,9 +66,14 @@ public class ListenerActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
 
+        pd=new ProgressDialog(ListenerActivity.this);
+        pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        pd.setMessage("Loggin In....");
+
+
         textstring = (TextView) findViewById(R.id.text);
         speechOut = (TextView) findViewById(R.id.speechout);
-
+        count = (Button) findViewById(R.id.button);
 
         textstring.setText(str[randInt(0, 4)]);
         speechOut.setText(speechtotext);
@@ -58,6 +82,13 @@ public class ListenerActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 promptSpeechInput();
+            }
+        });
+
+        count.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                wordcount();
             }
         });
 
@@ -120,6 +151,53 @@ public class ListenerActivity extends AppCompatActivity {
         }
 
 
+    }
+
+
+    private void wordcount() {
+        pd.show();
+
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, URL_COUNT,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        pd.hide();
+
+                        Toast.makeText(ListenerActivity.this, response, Toast.LENGTH_SHORT).show();
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String str = json.getString("status");
+                            Toast.makeText(ListenerActivity.this, str, Toast.LENGTH_LONG).show();
+                            //if(str.equals("success"))
+                            {
+                                Intent intent = new Intent(ListenerActivity.this, ListenerActivity.class);
+                                startActivity(intent);
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(ListenerActivity.this, error.toString(), Toast.LENGTH_LONG).show();
+                    }
+                }) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<>();
+                params.put("answer", "how are you kha ja rhe ho");
+                return params;
+            }
+
+        };
+
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
     }
 
 
