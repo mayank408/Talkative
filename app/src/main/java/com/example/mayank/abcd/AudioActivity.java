@@ -8,8 +8,8 @@ import android.os.Environment;
 import android.os.SystemClock;
 import android.os.Vibrator;
 import android.support.v7.app.ActionBarActivity;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.util.Base64;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -18,21 +18,29 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
+
+
 /**
  * Created by mayanktripathi on 24/12/16.
  */
+
 
 public class AudioActivity extends ActionBarActivity {
     private TextView recordTimeText, timekeeper;
     private ImageButton audioSendButton;
     private Button play;
     private View recordPanel;
+    File fileName;
     private View slideText;
     private float startedDraggingX = -1;
     private float distCanMove = dp(80);
@@ -46,6 +54,7 @@ public class AudioActivity extends ActionBarActivity {
     Random random ;
     MediaPlayer mediaPlayer ;
     String RandomAudioFileName = "ABCDEFGHIJKLMNOP";
+    private static final String TAG = "AudioActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -191,7 +200,6 @@ public class AudioActivity extends ActionBarActivity {
         mediaRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
         mediaRecorder.setOutputFile(AudioSavePathInDevice);
 
-
     }
 
 
@@ -208,10 +216,17 @@ public class AudioActivity extends ActionBarActivity {
     }
 
     private void stoprecord() {
+
+
+
         // TODO Auto-generated method stub
 
         try{
             mediaRecorder.stop();
+            doFileUpload();
+            encodeAudio(AudioSavePathInDevice);
+
+
         }catch(RuntimeException stopException){
             //handle cleanup here
         }
@@ -231,6 +246,13 @@ public class AudioActivity extends ActionBarActivity {
         }
         recordTimeText.setText("00:00");
         vibrate();
+
+
+        if(mediaPlayer!=null)
+        { mediaPlayer.release();
+        mediaPlayer.stop();}
+
+
     }
 
     private void vibrate() {
@@ -279,8 +301,103 @@ public class AudioActivity extends ActionBarActivity {
                 }
             });
         }
+
+    }
+        private void doFileUpload(){
+
+
+
+            byte[] videoBytes;
+            try {
+                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                FileInputStream fis = new FileInputStream(new File(AudioSavePathInDevice));
+
+                byte[] buf = new byte[1024];
+                int n;
+                while (-1 != (n = fis.read(buf)))
+                    baos.write(buf, 0, n);
+
+                 videoBytes = baos.toByteArray();
+
+
+                String video_str = Base64.encodeToString(videoBytes , 0);
+                Log.v( "hiiiii", "video array"+video_str);
+
+
+            } catch (Exception e) {
+                // TODO: handle exception
+            }}
+
+
+    private void encodeAudio(String selectedPath) {
+
+
+        byte[] audioBytes;
+        try {
+
+            // Just to check file size.. Its is correct i-e; Not Zero
+            File audioFile = new File(selectedPath);
+            long fileSize = audioFile.length();
+
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            FileInputStream fis = new FileInputStream(new File(selectedPath));
+            byte[] buf = new byte[1024];
+            int n;
+            while (-1 != (n = fis.read(buf)))
+                baos.write(buf, 0, n);
+            audioBytes = baos.toByteArray();
+
+            // Here goes the Base64 string
+            String _audioBase64 = Base64.encodeToString(audioBytes, Base64.DEFAULT);
+
+            Log.d("Audio In Bytes" , _audioBase64);
+
+
+
+            decodeAudio(_audioBase64 , fileName , AudioSavePathInDevice  , mediaPlayer );
+
+        } catch (Exception e) {
+
+        }
+
     }
 
+    private void decodeAudio(String base64AudioData, File fileName, String path, MediaPlayer mp) {
+
+        Log.d(TAG, "decodeAudio: called ");
+
+        try {
+
+            Log.d(TAG, "decodeAudio: try first block");
+            FileOutputStream fos = new FileOutputStream(fileName);
+            fos.write(Base64.decode(base64AudioData.getBytes(), Base64.DEFAULT));
+            fos.close();
+
+            try {
+
+                Log.d(TAG, "decodeAudio: try second block");
+                
+                Toast.makeText(this, "hvfy", Toast.LENGTH_SHORT).show();
+                Log.e("bhvcfgvh" , "uhuhu");
+
+                mp = new MediaPlayer();
+                mp.setDataSource(path);
+                mp.prepare();
+                mp.start();
+
+            } catch (Exception e) {
+
+                Log.e(TAG, "decodeAudio: exception");
+                //DiagnosticHelper.writeException(e);
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
 
 
 }
