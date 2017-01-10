@@ -1,259 +1,155 @@
 [
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_screen_simple.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_tab_icon.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item_subheader.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_menu_item.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__gallery_activity.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__gallery_activity.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_radio.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_media_cancel_action.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__action_bar.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__action_bar.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__composer_view.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/2.2.0/res/layout/tw__composer_view.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_view.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/recording.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/recording.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_media_action.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_round.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_blue_round.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/signin_no_password_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/signin_no_password_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__video_control.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__video_control.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/signup.xml",
         "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/signup.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/take_test.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/take_test.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/com_facebook_login_fragment.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__tweet.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__tweet.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/select_dialog_item_material.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_snackbar.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item_header.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_part_time.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_blue_small.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/listener.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/listener.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_menu_item_action_area.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_menu.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_media_custom.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__tweet_quote.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__tweet_quote.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/com_facebook_activity_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/com_facebook_activity_layout.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_mode_bar.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__activity_share_email.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/2.2.0/res/layout/tw__activity_share_email.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_menu_item_layout.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/mike_button_states.xml",
         "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/mike_button_states.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_action_tombstone.xml"
-    },
-    {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_bottom_navigation_item.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/sign_in_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/sign_in_layout.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__tweet_compact.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__tweet_compact.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_small.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_white_small.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media_custom.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/idp_button_google.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/idp_button_google.xml"
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/splash_screen.xml",
@@ -261,6 +157,242 @@
     },
     {
         "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/com_facebook_device_auth_dialog_fragment.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__media_badge.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__media_badge.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/forgot_password_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/forgot_password_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/idp_button_facebook.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/idp_button_facebook.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/recording.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/recording.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/idp_button_twitter.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/idp_button_twitter.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__app_card.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/2.2.0/res/layout/tw__app_card.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/take_test.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/take_test.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__activity_composer.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/2.2.0/res/layout/tw__activity_composer.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/listener.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/listener.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_large.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/com_facebook_smart_device_dialog_fragment.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/res/layout/com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/auth_method_picker_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/auth_method_picker_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/welcome_back_password_prompt_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/welcome_back_password_prompt_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/register_email_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/register_email_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__activity_oauth.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/2.2.0/res/layout/tw__activity_oauth.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/welcome_back_idp_prompt_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/res/layout/welcome_back_idp_prompt_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/tw__player_activity.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/res/layout/tw__player_activity.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_multichoice_material.xml"
     }
 ]

@@ -30,8 +30,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
+
 
 /**
  * Created by mayank on 03-12-2016.
@@ -42,7 +41,6 @@ public class ListenerActivity extends AppCompatActivity {
     private static final String URL_COUNT = "http://sakshi.pythonanywhere.com/words_count";
 
 
-    @BindView(R.id.btnSpeak)
     ImageButton btnSpeak;
 
     private final int REQ_CODE_SPEECH_INPUT = 100;
@@ -63,7 +61,6 @@ public class ListenerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listener);
-        ButterKnife.bind(this);
 
 
         pd=new ProgressDialog(ListenerActivity.this);
@@ -71,6 +68,7 @@ public class ListenerActivity extends AppCompatActivity {
         pd.setMessage("Loggin In....");
 
 
+        btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
         textstring = (TextView) findViewById(R.id.text);
         speechOut = (TextView) findViewById(R.id.speechout);
         count = (Button) findViewById(R.id.button);

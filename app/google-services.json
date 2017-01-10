@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "977654214607",
+    "firebase_url": "https://talkative-982b8.firebaseio.com",
+    "project_id": "talkative-982b8",
+    "storage_bucket": "talkative-982b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977654214607:android:a2a2ae85660a41e9",
+        "android_client_info": {
+          "package_name": "com.example.mayank.abcd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977654214607-3t4a7qc1dtc7f79g2c2q1d6e3pfe0g8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayank.abcd",
+            "certificate_hash": "FF2DC14130DC3AACC69D82C25CADD7B0DEE2A1F5"
+          }
+        },
+        {
+          "client_id": "977654214607-q8sjfq1ubu29kb5akebdilcfgq04m6j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAmqone0DhYEm5WPvLbz4er51-KNx1MNQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977654214607-q8sjfq1ubu29kb5akebdilcfgq04m6j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

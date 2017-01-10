@@ -1,119 +1,76 @@
 package com.example.mayank.abcd;
 
 
-import android.app.ProgressDialog;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
-import java.util.HashMap;
-import java.util.Map;
+
+import java.util.Arrays;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL = "http://sakshi.pythonanywhere.com/login";
+    private static final int RC_SIGN_IN = 123;
 
-        TextView username , password , signUp;
-        ProgressDialog pd;
+    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth.AuthStateListener authStateListener;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.take_test);
 
-        username = (TextView) findViewById(R.id.email);
-        password = (TextView) findViewById(R.id.password_input);
-        signUp = (TextView) findViewById(R.id.signup);
-        Button login = (Button) findViewById(R.id.log_in);
-
-        pd=new ProgressDialog(MainActivity.this);
-        pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        pd.setMessage("Loggin In....");
+        firebaseAuth = FirebaseAuth.getInstance();
 
 
-
-        signUp.setOnClickListener(new View.OnClickListener() {
+        authStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,SignUp.class);
-                startActivity(intent);
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+
+                    Toast.makeText(MainActivity.this, "Signed In", Toast.LENGTH_SHORT).show();
+
+                } else {
+
+                    startActivityForResult(
+                            AuthUI.getInstance()
+                                    .createSignInIntentBuilder()
+                                    .setIsSmartLockEnabled(false)
+                                    .setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build(),
+                                            new AuthUI.IdpConfig.Builder(AuthUI.GOOGLE_PROVIDER).build()))
+                                    .build(),
+                            RC_SIGN_IN);
+                }
+
             }
-        });
+        };
 
 
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                loginUser();
-            }
-        });
     }
 
-            private void loginUser() {
-                pd.show();
-                final String Username = username.getText().toString().trim();
-                final String Password = password.getText().toString().trim();
 
-
-
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, URL,
-                        new Response.Listener<String>() {
-                            @Override
-                            public void onResponse(String response) {
-                                pd.hide();
-
-                                try {
-                                    JSONObject json = new JSONObject(response);
-                                    String str = json.getString("status");
-                                    Toast.makeText(MainActivity.this, str, Toast.LENGTH_LONG).show();
-                                    //if(str.equals("success"))
-                                    {
-                                        Intent intent = new Intent(MainActivity.this, ListenerActivity.class);
-                                        startActivity(intent);
-                                    }
-
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
-
-                            }
-                        },
-                        new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Toast.makeText(MainActivity.this, error.toString(), Toast.LENGTH_LONG).show();
-                            }
-                        }) {
-                    @Override
-                    protected Map<String, String> getParams() {
-                        Map<String, String> params = new HashMap<>();
-                        params.put("username", Username);
-                        params.put("password", Password);
-                        return params;
-                    }
-
-                };
-
-                RequestQueue requestQueue = Volley.newRequestQueue(this);
-                requestQueue.add(stringRequest);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == RC_SIGN_IN) {
+            if (resultCode == RESULT_OK) {
+                Toast.makeText(this, "Signed IN", Toast.LENGTH_SHORT).show();
+            } else if (resultCode == RESULT_CANCELED) {
+                Toast.makeText(this, "Signed In Cancelled", Toast.LENGTH_SHORT).show();
+                finish();
             }
-
-
         }
+    }
+}
 

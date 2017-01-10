@@ -21,6 +21,7 @@ import android.widget.Toast;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
@@ -41,7 +42,7 @@ public class AudioActivity extends ActionBarActivity {
     private Button play;
     private View recordPanel;
     File fileName;
-    private View slideText;
+    public View slideText;
     private float startedDraggingX = -1;
     private float distCanMove = dp(80);
     private long startTime = 0L;
@@ -354,6 +355,7 @@ public class AudioActivity extends ActionBarActivity {
 
 
 
+
             decodeAudio(_audioBase64 , fileName , AudioSavePathInDevice  , mediaPlayer );
 
         } catch (Exception e) {
@@ -373,31 +375,26 @@ public class AudioActivity extends ActionBarActivity {
             fos.write(Base64.decode(base64AudioData.getBytes(), Base64.DEFAULT));
             fos.close();
 
-            try {
 
-                Log.d(TAG, "decodeAudio: try second block");
-                
-                Toast.makeText(this, "hvfy", Toast.LENGTH_SHORT).show();
-                Log.e("bhvcfgvh" , "uhuhu");
+            Log.d(TAG, "decodeAudio: try second block");
 
-                mp = new MediaPlayer();
-                mp.setDataSource(path);
-                mp.prepare();
-                mp.start();
+            Toast.makeText(this, "hvfy", Toast.LENGTH_SHORT).show();
+            Log.e("bhvcfgvh", "uhuhu");
 
-            } catch (Exception e) {
+            mp = new MediaPlayer();
+            mp.setDataSource(path);
+            mp.prepare();
+            mp.start();
 
-                Log.e(TAG, "decodeAudio: exception");
-                //DiagnosticHelper.writeException(e);
+        } catch (FileNotFoundException e1) {
+            Log.d(TAG, "decodeAudio: ullu hau yi");
+            e1.printStackTrace();
 
-            }
 
-        } catch (Exception e) {
+        } catch (IOException e) {
+            Log.d(TAG, "decodeAudio: ullu hau yi");
+
             e.printStackTrace();
         }
-
-
     }
-
-
-}
+    }

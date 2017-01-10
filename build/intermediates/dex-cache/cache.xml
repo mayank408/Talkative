@@ -3,30 +3,228 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_92fabbff9111178e8f13417baae1889c399ea300.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_6fe9327f99e64bcf8248b8e0f19ac0d703343675.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_291cc7df38057720172eb6c730852b8bac7f2030.jar" />
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_003891aec285017d232841b4c28730a21de429ca.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_e2125d9dd2fda00c6992673ab960a857a76b3c5d.jar" />
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_925d010e7152581a47ae3372339e757e41e2382e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2b7e936ca11ae0588600beb7388553bda26d7e66">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-twitter-2.2.0_a2045de3c600301f37e191264f5a518c2c0f3a6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6888a6faad7690088caf4ce55cde09763d7eefd0">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-tweet-ui-2.2.0_6d6bcaca879fff4b6e6a68fbaca1234f2a9c742a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_d0fa675e6d6c12152295320e2cdd6763c09469e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_96f01a311cef438f0f232cbd94eea88cfadcf1d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2a3224154b36aa5bb941f20d1625ba1fb20aa3a7">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-twitter-core-2.2.0_1deedfcc4b86691314b7600c9c7e68c893e65e6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.13.0/78415b95ae3184c5926d593feab64bfc0b73b2dd/twitter-text-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/twitter-text-1.13.0_fdf0f9ec57ea5bca3c8c98376ee3bf9026bd5f73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_f465685d0ab15e5daea01c79d0ac0be0af6858ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_b4cc27ca2b971ff21a1c3cdc985cf16576079d04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d84c0979b0a6fe9e570cedfe833276165c19fd74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_c639dac007733ba4405d42e8f3b8ed1775f08563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="312bc30848df24f8de992863408cc46027e29d61">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-auth-1.0.1_7a13cf1cc8ae8a05db99609a8c68ee2788f627ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_3483abbebf97675cafd2bd4cbbe2a2db33cb037d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-beta4_724dd3c6a556fb3d3a037573ed8bb24a8017df37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_154c284f6ac2ecf0d1f7cfae34b4e36edfcea48f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_e4c59ef258a5796f1d17b414403042e6886d1dde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4deb6adbe724b17214ded081b0fbfb109a87077e">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.twitter.sdk.android-tweet-composer-2.2.0_003ee7cb53ea37d9a51340d57caef520fc6d5ee9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_e97db7ec41973a44d803a9db5b231c1edd3ef8fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_c65def23b391db300ba463377ef44e14d85b7d98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_92657d33f048ca8c7cc22dc1ce0b32b8ab4898bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e2b9f0c5025fb0640ef092b1ca322bf4a4992e1c">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.1_50311f8d2fc73b18d7fcac5349c6c0c34629c07a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-10.0.0_c05908868d6ee5f01477c695344d33433a9478f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_a8d81f07eb09658bdd51b1100062719874ae1d27.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,21 +246,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_8aefe3fd31ce807cd3ef215e6ed653e1cf94f984.jar" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_fd832ebf3caeb3837c828d4708195cd8f8bcda4b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.0_a7627b6605cf7b354ef1956bb829437389b890be.jar" />
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.14_1cefa8a0552c89d7a8e0fad2cb34cb44f4f2c6bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_055fcab7703e5b761233af823ef18a2a38cd2dd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d3d79f34fbd309da8aa61b0f025b3d5b7a077a88.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,12 +291,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_30e845a9e9170bcb772235dfcaa1c2c028c83d40.jar" />
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_46426f0040fafa22e9a67996edbf6584fee0ba8f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,24 +309,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_a00a8d2761baf732f556d1e4a91b307cd253a09e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.0_7b7ed6edfd096ce0f3cbeece761f4429d7656424.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="false"
         optimize="true"
@@ -120,138 +318,129 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_132bce8a1e1aaa60fdaae7c56ee48318463cd887.jar" />
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_52dfad2d4ee8363dee96ee186fda1a2331d2eca8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.17.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_c49bcafe4a960918f46199390373269d948ebc1c.jar" />
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.17.0_9c7a759605d3941452d82b6b698db7747f025a8f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_6075be7b96d3dac86ac417bd07068643b6f2e015.jar" />
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_be70b58f235fd8e5387b416307e1c6d7118e1177.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_04ae2f1d35c7cfe8cd7db87bd796b25ced09c11b.jar" />
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_ea75b702fc90b098e4b6acb8004fd0cbd93b9777.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ece1afad2028276b6e57c5c4c92929b091c6f6e2.jar" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_ba0775c64271c1c06f0e0f3798860a3181b60531.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta4/jars/classes.jar"
+        jar="/Users/mayanktripathi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-beta4_724dd3c6a556fb3d3a037573ed8bb24a8017df37.jar" />
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_872bc558bffc5a578342048f61828990558762c0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_63b00cdf09483816324da045cd71287dbd84b10b.jar" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_7fa0c8375986f1a1d58a4e06a254daf3464db592.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="0a9cb567dc008f570c28531720168f19148da965">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_e4c59ef258a5796f1d17b414403042e6886d1dde.jar" />
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-10.0.1_fffcb67d9074e2b48dda4a0c51fbc351410a4fa3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_67144be5e1576faf3faf8451c70bf60b006fb6cb.jar" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_3efb6bdb3edd2b4de07ab031bc85c8ea060c82e7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_1d63e50bb1127d612ab93ec208290688f55dcb5c.jar" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_aeeeef5366f690d010048f0a348ebe0d58b84bd3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_2ec3630f74e50d7f452cee6377b5997e08e69aba.jar" />
+        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-10.0.0_f32237f53a5140253d02cdc3309050f63d94f593.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_e97db7ec41973a44d803a9db5b231c1edd3ef8fc.jar" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_c4e1528b4437170196daa89fc69b8a2734bd7512.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_2ba9d4af3d30c133b310ddb970546cb0a25808f6.jar" />
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_641f1feb2ba96be1cec2ef22bf2ef307b17d6c92.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_ea043d6a9fa2b5f35dd2599fcb8c7e6086aa2d49.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_c77da46b5737c8e16d0b62bfae63155f9dbf2d6c.jar" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/mayanktripathi/AndroidStudioProjects/Talkative/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_ed2ae43be3940e5f35b6ef17947dfaa4177576e2.jar" />
     </item>
     <item
         is-multidex="false"
